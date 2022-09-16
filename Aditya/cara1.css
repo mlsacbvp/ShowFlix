@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #774c60;
+}
+.caraimage{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+height: 464px;
+margin: auto;
+margin-top: 30px;
+/* box-shadow: 0px 0px 3px grey; */
+/* position: relative; */
+overflow: hidden;
+   
+
+}
+.caraimage img{
+    
+    padding: 0px 20px;
+    border-radius: 30px;
+    width: 50%;
+    height: 100%;
+    /* transition: 1s; */
+    /* position: absolute; */
+    
+
+
+}
+ .caraimage img:hover{
+    border: 2px solid grey;
+    box-shadow: 2px 2px 10px 2px grey;
+ }
+
+ .carousel {
+/* color: #1A1423; */
+display: flex;
+align-items: center;
+ }
+
+
+ button{
+    border-radius: 25px;
+    width: 2rem;
+    font-size: 2rem;
+    height: 3rem;
+background-color: grey;
+color: white;
+border: none;
+    /* display: flex;
+    flex-direction:column ; */
+    cursor: pointer;
+ }
+
+  button:hover,button:focus{
+    color: grey;
+    background-color: white;
+    border: none;
+ }
+ button:focus{
+    border: 1px solid grey;
+ }
+#prev{
+    margin: 0px 10px;
+}
+#next{
+    margin: 0px 10px;
+}
