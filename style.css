@@ -1,7 +1,75 @@
-.center {
+body{
+   margin: 0px;
+   padding: 0px;
+   color: white;
+   height: 1000px;
+}
+.left{
+display: inline-block;
+position: absolute;
+top:15px;
+left: 25px;
+font-family: 'Irish Grover', cursive;
+font-size: 20px;
+}
+.right{
+/* position: absolute; */
+display: inline-block;
+/* right: 34px; */
+
+}
+.right li{
+display: inline-block;
+border: 2px solid rgb(26, 20, 35);
+
+color: white;
+}
+.right li:hover{
+display: inline-block;
+border: 2px solid rgb(55, 37, 73);
+background-color: rgb(55, 37, 73);
+border-radius: 5px;
+
+color: white;
+}
+.right li a{
+text-decoration: none;
+padding: 23px 10px;
+margin:8px auto ;
+color: white;
+font-family: 'Itim', cursive;
+}
+.navbar{
+   background-color: rgb(26, 20, 35);
+   height: 60px;
+   display: flex;
+   align-items: center;
+
+   justify-content: flex-end;
+}
+.right li img{
+width: 20px;
+float: left;
+filter:invert(100%)
+}
+.footer{
+border: 2px solid rgb(118, 75, 95);;
+/* position:fixed ;    */
+bottom: 0px;    
+width: 100%;  
+background-color: rgb(118, 75, 95);  
+color: white;  
+text-align: center; 
+height: 60px;
+box-sizing: border-box;
+text-align: center;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* .center {
     display: block;
- }
- .carousel{
+ } */
+ /* .carousel{
     overflow: hidden;
     max-width: 900px;
     position: relative;
@@ -51,4 +119,4 @@
       opacity: 1;
       transform: opacity linear;
    }
- }
+ } */
