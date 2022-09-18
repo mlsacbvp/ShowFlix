@@ -37,10 +37,12 @@ overflow: hidden;
  }
 
  .carousel {
-/* color: #1A1423; */
-display: flex;
-align-items: center;
- }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
 
 
  button{
