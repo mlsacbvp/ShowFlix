@@ -32,8 +32,7 @@ overflow: hidden;
 
 }
  .caraimage img:hover{
-    border: 2px solid grey;
-    box-shadow: 2px 2px 10px 2px grey;
+    transform: scale(1.01);
  }
 
  .carousel {
