@@ -32,7 +32,7 @@
     }
     .right{
         position: absolute;
-        display: inline-block;
+        display: inline;
         right: 34px;
         
     }
@@ -60,6 +60,18 @@
     .navbar{
         background-color: rgb(26, 20, 35);
         height: 60px;
+    }
+    @media (max-width:900px) {
+        .navbar{
+            height:40px;
+            
+        }
+        .left{
+            font-size: 10px;
+        }
+        .right{
+            font-size: 10px ;
+        }
     }
     .right li img{
         width: 20px;
