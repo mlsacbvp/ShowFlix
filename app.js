@@ -16,7 +16,7 @@ data.forEach((item) => {
             <img  src="${item.img}" alt="Image" style="width:150px; height:250px;"/>
             <div class="card-text">
             <h4 style="bottom:180px;"> ${item.name} </h4>
-            <h5 style="bottom:150px;"> ${item.rating} </h5>
+            <h5 style="bottom:150px;"> Rating: ${item.rating} </h5>
             <h5> ${item.genre} </h5>
             <div class="desc"> ${item.desc} <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga atque assumenda, praesentium non aliquid ducimus facere voluptate maxime, eveniet facilis nostrum molestias et officia doloremque reiciendis provident optio consectetur perferendis!</span></div>
             </div>
