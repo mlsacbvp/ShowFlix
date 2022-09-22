@@ -141,12 +141,19 @@ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ox
 .desc{
    display: flex;
    flex-direction: column;
+   margin: 0 2rem;
 }
 .cover-pic .img{
    display: block;
 }
 .cover-pic .image{
    display: none;
+}
+.upcoming{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0 2rem;
 }
 @media screen and (max-width:500px){
    .card-text .desc span{
